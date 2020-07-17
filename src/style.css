@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'NanumGothic';
+	src: url('/fonts/NanumGothic.eot') format('eot');
+	src: url('/fonts/NanumGothic.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NanumGothic';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/NanumGothic-Bold.eot');
+	src: url('/fonts/NanumGothic-Bold.eot') format('embedded-opentype'),
+		url('/fonts/NanumGothic-Bold.woff2') format('woff2'),
+		url('/fonts/NanumGothic-Bold.woff') format('woff'),
+		url('/fonts/NanumGothic-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumGothic';
+	font-style: normal;
+	font-weight: 800;
+	src: url('/fonts/NanumGothic-ExtraBold.eot');
+	src: url('/fonts/NanumGothic-ExtraBold.eot') format('embedded-opentype'),
+		url('/fonts/NanumGothic-ExtraBold.woff2') format('woff2'),
+		url('/fonts/NanumGothic-ExtraBold.woff') format('woff'),
+		url('/fonts/NanumGothic-ExtraBold.ttf') format('truetype');
+}
+.layout{
+	margin-top : 100px;
+	margin-bottom: 120px;
+	height: 90vh;
+	background-color: rgb(45, 63, 105);
+}
+ .title {
+	padding-top : 50px;
+	color: white; 
+	font-family: NanumGothic;
+	font-size: 50px;
+} 
+.header{
+	position : fixed;
+	left : 0;
+	top: 0;
+	width: 100%;
+	height:100px;
+}
+.top_logo {
+	width: auto;
+	float: left;
+}
+.top_logo img {
+	width: auto;
+	height: 10vh;
+}
+.rightTop {
+	width: auto;
+	float: right;
+}
+.buttonGroup {
+	margin-top: 20px;
+}
+.footer{
+	position : fixed;
+	left : 0;
+	bottom: 0;
+	width: 100%;
+	height:100px;
+	background-color: grey;
+}
